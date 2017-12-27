@@ -577,5 +577,8 @@
   <include name="snippets/lineage.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  
+  <project path="vendor/xiaomi/chiron" name="LineageOS-chiron/android_vendor_xiaomi_chiron" remote="github" revision="master" />
+  <project path="device/xiaomi/chiron" name="LineageOS-chiron/android_device_xiaomi_chiron" remote="github" revision="lineage-15.1" />
 
 </manifest>
