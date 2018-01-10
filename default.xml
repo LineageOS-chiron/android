@@ -342,7 +342,7 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" remote="aosp" />
+  <project path="frameworks/hardware/interfaces" name="platform/frameworks/hardware/interfaces" groups="pdk" remote="github" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" remote="aosp" />
@@ -580,7 +580,12 @@
   
   <project path="vendor/xiaomi/chiron" name="LineageOS-chiron/android_vendor_xiaomi_chiron" remote="github" revision="master" />
   <project path="device/xiaomi/chiron" name="LineageOS-chiron/android_device_xiaomi_chiron" remote="github" revision="lineage-15.1" />
-  <project path="kernel/xiaomi/msm8998" name="LineageOS-chiron/android_kernel_xiaomi_msm8998" remote="github" revision="lineage-15.1-stock" />
+  <project path="kernel/xiaomi/msm8998" name="LineageOS-chiron/android_kernel_xiaomi_msm8998" remote="github" revision="lineage-15.1" />
+  
+  <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" remote="github" revision="lineage-15.0" />
+  
+  <project path="vendor/xiaomi/sagit" name="NisseCool/android_vendor_xiaomi_sagit" remote="github" revision="master" />
+  <project path="device/xiaomi/sagit" name="NisseCool/android_device_xiaomi_sagit" remote="github" revision="lineage-15.1" />
   
 
 </manifest>
